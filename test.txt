@@ -1,0 +1,21 @@
+crlf file created on mac
+
+% git config -l --show-origin
+file:/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig   credential.helper=osxkeychain
+file:/Users/wei/.gitconfig      alias.co=checkout
+file:/Users/wei/.gitconfig      alias.ci=commit
+file:/Users/wei/.gitconfig      alias.st=status
+file:/Users/wei/.gitconfig      alias.br=branch
+file:/Users/wei/.gitconfig      alias.df=diff
+file:/Users/wei/.gitconfig      user.name=wei
+file:/Users/wei/.gitconfig      user.email=leohoo@hotmail.com
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=true
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        core.ignorecase=true
+file:.git/config        core.precomposeunicode=true
+file:.git/config        remote.origin.url=git@github.com:leohoo/autocrlf-test.git
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config        branch.main.remote=origin
+file:.git/config        branch.main.merge=refs/heads/main
