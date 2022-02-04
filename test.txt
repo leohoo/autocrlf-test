@@ -1,5 +1,6 @@
 crlf file created on mac
 
+mac:
 % git config -l --show-origin
 file:/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig   credential.helper=osxkeychain
 file:/Users/wei/.gitconfig      alias.co=checkout
@@ -15,6 +16,45 @@ file:.git/config        core.bare=false
 file:.git/config        core.logallrefupdates=true
 file:.git/config        core.ignorecase=true
 file:.git/config        core.precomposeunicode=true
+file:.git/config        remote.origin.url=git@github.com:leohoo/autocrlf-test.git
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config        branch.main.remote=origin
+file:.git/config        branch.main.merge=refs/heads/main
+
+windows:
+$ git config -l --show-origin
+file:C:/Program Files/Git/etc/gitconfig diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig core.symlinks=true
+file:C:/Program Files/Git/etc/gitconfig pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig credential.helper=manager-core
+file:C:/Program Files/Git/etc/gitconfig credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig init.defaultbranch=master
+file:C:/Users/wei/.gitconfig    core.autocrlf=true
+file:C:/Users/wei/.gitconfig    user.name=Wei Liu
+file:C:/Users/wei/.gitconfig    user.email=leohoo@hotmail.com
+file:C:/Users/wei/.gitconfig    filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/wei/.gitconfig    filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/wei/.gitconfig    filter.lfs.process=git-lfs filter-process
+file:C:/Users/wei/.gitconfig    filter.lfs.required=true
+file:C:/Users/wei/.gitconfig    alias.st=status
+file:C:/Users/wei/.gitconfig    alias.df=diff --ignore-all-space
+file:C:/Users/wei/.gitconfig    alias.co=checkout
+file:C:/Users/wei/.gitconfig    alias.ci=commit
+file:C:/Users/wei/.gitconfig    alias.cm=commit
+file:C:/Users/wei/.gitconfig    alias.br=branch
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=false
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        core.ignorecase=true
 file:.git/config        remote.origin.url=git@github.com:leohoo/autocrlf-test.git
 file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 file:.git/config        branch.main.remote=origin
